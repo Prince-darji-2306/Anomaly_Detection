@@ -1,5 +1,5 @@
-streamlit
+streamlit==1.26.0
+tensorflow==2.10.0
 tensorflow
-tensorflow-cpu
 numpy
 Pillow
