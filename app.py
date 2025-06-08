@@ -76,6 +76,7 @@ with st.sidebar:
 
 # ---------------- Page 1: Predict ----------------
 if st.session_state.page == "predict":
+    st.title('🛠️ Anomaly Detection System')
     st.markdown("<h1>🛠️ Anomaly Detection System</h1>", unsafe_allow_html=True)
     st.write("Select a product image to check if it is Normal or Anomaly.")
 
