@@ -39,7 +39,7 @@ st.markdown("""
     }
 
     h1 {
-        margin-top: -30px !important;
+        margin-top: 0px !important;
         padding-top: 0 !important;
     }
 
