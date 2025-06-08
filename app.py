@@ -29,7 +29,7 @@ st.markdown("""
     }
 
     section[data-testid="stSidebar"] > div:first-child {
-        padding-top: 1rem;
+        padding-top: 0rem;
         margin-top: 0 !important;
     }
 
@@ -83,7 +83,7 @@ if st.session_state.page == "predict":
     selected_dir = st.selectbox('Select Directory',['normal', 'anomaly'])
 
     if selected_dir:
-        image_folder = f"sample_images/{selected_dir}"  # <-- your local image folder
+        image_folder = f"sample_images/{selected_dir}"  
     image_files = [f for f in os.listdir(image_folder) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
 
     selected_file = st.selectbox("Select an image", ["-- Choose an image --"] + image_files)
