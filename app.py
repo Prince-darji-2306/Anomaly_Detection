@@ -4,6 +4,8 @@ import numpy as np
 from PIL import Image
 import os
 
+st.set_page_config(page_title="Anomaly-Detection", layout="wide")
+
 # Load model once
 @st.cache_resource
 def load_model():
